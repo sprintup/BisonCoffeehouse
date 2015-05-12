@@ -1,3 +1,42 @@
+Tasks
+
+[] Sass color mixins
+[] Make text smaller on mobile devices
+[] Limit number of characters to between 45 and 60 characters per line
+[] Change table font color to black on mobile layouts
+[] Break up about paragraph 
+[] Make Address bound to right of 12th column 
+[] Modify background color so text is easier to read
+[] Recieve production level about section content
+[] Get form to work
+[] Justify Google cal on mobile devices
+[] Add Yelp link
+[] Add work from link 
+[] Get titles to show centered
+[] Delete our Process and our promise 
+[] Get text in address id to wrap inside div
+[] Keep header logo and address div on same line on mobile layout
+[] Make text smaller on mobile layout 
+[] Make text proper color on mobile layout
+[] Add small footer with social media icons 
+[] Set verticle space for mobile layout
+[] change address and phone number links to orange 
+[] Get hours to display in stick footer on mobile layout
+[] Have background image scroll on desktop
+[] Get form to send email 
+[] Secure form with captcha 
+[] About page with staff bios
+[] Google Analytics 
+[] Yelp Reviews
+[] Like us on Facebook icon
+[] Get portrait images to show only when on mobile 
+[] Get landscape images to show on desktop
+[] Get background image to load from CSS not markup 
+
+[X] Get address and logo on same row in header; on all screen sizes
+
+
+
 Fonts
 
 Fjalla One

@@ -34,7 +34,7 @@
   max-width: 960px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box; /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include.*/}
 .column,
 .columns {
   width: 100%;
@@ -120,7 +120,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -159,7 +159,8 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: #CD6600;
-  text-decoration: none; }
+  text-decoration: none; 
+  }
 a:hover {
   color: black; }
 
@@ -389,7 +390,7 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+/*@media (min-width: 400px) {}*/
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
