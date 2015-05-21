@@ -32,6 +32,7 @@ Tasks
 [] Get portrait images to show only when on mobile 
 [] Get landscape images to show on desktop
 [] Get background image to load from CSS not markup 
+[] Make Bison logo smaller so it doesn't smush 
 
 [X] Get address and logo on same row in header; on all screen sizes
 
