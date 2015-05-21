@@ -31,6 +31,8 @@ h6 { font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
 
 #google-cal {
 	max-width: 80%;
+	border-width:0; 
+	max-width: 100%;
 }
 
 #email a {
