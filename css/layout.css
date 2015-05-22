@@ -35,8 +35,8 @@ h6 { font-size: .9rem; line-height: 1.6;  letter-spacing: 0; }
 	max-width: 100%;
 }
 
-#email a {
-	color: #fff;
+#webcredit {
+	text-align: center;
 }
 
 /*Table*/
@@ -46,6 +46,9 @@ td {
   padding: 0px 10px;
   }
 
+th:first-child {
+	min-width: 50px;
+}
 
 /*Collapsing header effect*/
 header {
@@ -75,7 +78,7 @@ header {
 	width: 100%;
 	position: relative;
 	padding-top: 160px;
-	background-color: rgba(138, 54, 15, .3);
+	background-color: rgba(138, 54, 15, .4);
 }
 
 /*________Header Right________*/
@@ -193,7 +196,28 @@ nav {
 	background-color: black;
 }
 
-
-
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #CD6600;
+  border-color: #CD6600; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #8A360F;
+  border-color: #8A360F; }
 
 
