@@ -168,7 +168,7 @@ a:hover {
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button,
+/*.button,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -224,7 +224,7 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #8A360F;
   border-color: #8A360F; }
-
+*/
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -310,7 +310,7 @@ li {
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
+/*th,
 td {
   padding: 12px 15px;
   text-align: left;
@@ -321,7 +321,7 @@ td:first-child {
   padding-left: 0; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }
+  padding-right: 0; }*/
 
 
 /* Spacing
