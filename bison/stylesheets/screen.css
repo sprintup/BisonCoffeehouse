@@ -506,6 +506,8 @@ th {
   padding: 0;
 }
 
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -522,11 +524,9 @@ th {
 - Clearing
 - Media Queries
 */
-/* Variables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 28, ../sass/components/_skeleton.scss */
+/* line 22, ../sass/components/_skeleton.scss */
 .container {
   position: relative;
   width: 100%;
@@ -537,7 +537,7 @@ th {
   /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include.*/
 }
 
-/* line 35, ../sass/components/_skeleton.scss */
+/* line 29, ../sass/components/_skeleton.scss */
 .column,
 .columns {
   width: 100%;
@@ -547,187 +547,188 @@ th {
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
-  /* line 43, ../sass/components/_skeleton.scss */
+  /* line 37, ../sass/components/_skeleton.scss */
   .container {
     width: 85%;
+    padding: 0;
   }
 }
 /* For devices larger than 550px */
 @media (min-width: 550px) {
-  /* line 50, ../sass/components/_skeleton.scss */
+  /* line 44, ../sass/components/_skeleton.scss */
   .container {
     width: 80%;
   }
 
-  /* line 52, ../sass/components/_skeleton.scss */
+  /* line 46, ../sass/components/_skeleton.scss */
   .column,
   .columns {
     margin-left: 4%;
   }
 
-  /* line 55, ../sass/components/_skeleton.scss */
+  /* line 49, ../sass/components/_skeleton.scss */
   .column:first-child,
   .columns:first-child {
     margin-left: 0;
   }
 
-  /* line 59, ../sass/components/_skeleton.scss */
+  /* line 53, ../sass/components/_skeleton.scss */
   .one.column,
   .one.columns {
     width: 4.66666666667%;
   }
 
-  /* line 61, ../sass/components/_skeleton.scss */
+  /* line 55, ../sass/components/_skeleton.scss */
   .two.columns {
     width: 13.3333333333%;
   }
 
-  /* line 62, ../sass/components/_skeleton.scss */
+  /* line 56, ../sass/components/_skeleton.scss */
   .three.columns {
     width: 22%;
   }
 
-  /* line 63, ../sass/components/_skeleton.scss */
+  /* line 57, ../sass/components/_skeleton.scss */
   .four.columns {
     width: 30.6666666667%;
   }
 
-  /* line 64, ../sass/components/_skeleton.scss */
+  /* line 58, ../sass/components/_skeleton.scss */
   .five.columns {
     width: 39.3333333333%;
   }
 
-  /* line 65, ../sass/components/_skeleton.scss */
+  /* line 59, ../sass/components/_skeleton.scss */
   .six.columns {
     width: 48%;
   }
 
-  /* line 66, ../sass/components/_skeleton.scss */
+  /* line 60, ../sass/components/_skeleton.scss */
   .seven.columns {
     width: 56.6666666667%;
   }
 
-  /* line 67, ../sass/components/_skeleton.scss */
+  /* line 61, ../sass/components/_skeleton.scss */
   .eight.columns {
     width: 65.3333333333%;
   }
 
-  /* line 68, ../sass/components/_skeleton.scss */
+  /* line 62, ../sass/components/_skeleton.scss */
   .nine.columns {
     width: 74.0%;
   }
 
-  /* line 69, ../sass/components/_skeleton.scss */
+  /* line 63, ../sass/components/_skeleton.scss */
   .ten.columns {
     width: 82.6666666667%;
   }
 
-  /* line 70, ../sass/components/_skeleton.scss */
+  /* line 64, ../sass/components/_skeleton.scss */
   .eleven.columns {
     width: 91.3333333333%;
   }
 
-  /* line 71, ../sass/components/_skeleton.scss */
+  /* line 65, ../sass/components/_skeleton.scss */
   .twelve.columns {
     width: 100%;
     margin-left: 0;
   }
 
-  /* line 73, ../sass/components/_skeleton.scss */
+  /* line 67, ../sass/components/_skeleton.scss */
   .one-third.column {
     width: 30.6666666667%;
   }
 
-  /* line 74, ../sass/components/_skeleton.scss */
+  /* line 68, ../sass/components/_skeleton.scss */
   .two-thirds.column {
     width: 65.3333333333%;
   }
 
-  /* line 76, ../sass/components/_skeleton.scss */
+  /* line 70, ../sass/components/_skeleton.scss */
   .one-half.column {
     width: 48%;
   }
 
   /* Offsets */
-  /* line 79, ../sass/components/_skeleton.scss */
+  /* line 73, ../sass/components/_skeleton.scss */
   .offset-by-one.column,
   .offset-by-one.columns {
     margin-left: 8.66666666667%;
   }
 
-  /* line 81, ../sass/components/_skeleton.scss */
+  /* line 75, ../sass/components/_skeleton.scss */
   .offset-by-two.column,
   .offset-by-two.columns {
     margin-left: 17.3333333333%;
   }
 
-  /* line 83, ../sass/components/_skeleton.scss */
+  /* line 77, ../sass/components/_skeleton.scss */
   .offset-by-three.column,
   .offset-by-three.columns {
     margin-left: 26%;
   }
 
-  /* line 85, ../sass/components/_skeleton.scss */
+  /* line 79, ../sass/components/_skeleton.scss */
   .offset-by-four.column,
   .offset-by-four.columns {
     margin-left: 34.6666666667%;
   }
 
-  /* line 87, ../sass/components/_skeleton.scss */
+  /* line 81, ../sass/components/_skeleton.scss */
   .offset-by-five.column,
   .offset-by-five.columns {
     margin-left: 43.3333333333%;
   }
 
-  /* line 89, ../sass/components/_skeleton.scss */
+  /* line 83, ../sass/components/_skeleton.scss */
   .offset-by-six.column,
   .offset-by-six.columns {
     margin-left: 52%;
   }
 
-  /* line 91, ../sass/components/_skeleton.scss */
+  /* line 85, ../sass/components/_skeleton.scss */
   .offset-by-seven.column,
   .offset-by-seven.columns {
     margin-left: 60.6666666667%;
   }
 
-  /* line 93, ../sass/components/_skeleton.scss */
+  /* line 87, ../sass/components/_skeleton.scss */
   .offset-by-eight.column,
   .offset-by-eight.columns {
     margin-left: 69.3333333333%;
   }
 
-  /* line 95, ../sass/components/_skeleton.scss */
+  /* line 89, ../sass/components/_skeleton.scss */
   .offset-by-nine.column,
   .offset-by-nine.columns {
     margin-left: 78.0%;
   }
 
-  /* line 97, ../sass/components/_skeleton.scss */
+  /* line 91, ../sass/components/_skeleton.scss */
   .offset-by-ten.column,
   .offset-by-ten.columns {
     margin-left: 86.6666666667%;
   }
 
-  /* line 99, ../sass/components/_skeleton.scss */
+  /* line 93, ../sass/components/_skeleton.scss */
   .offset-by-eleven.column,
   .offset-by-eleven.columns {
     margin-left: 95.3333333333%;
   }
 
-  /* line 102, ../sass/components/_skeleton.scss */
+  /* line 96, ../sass/components/_skeleton.scss */
   .offset-by-one-third.column,
   .offset-by-one-third.columns {
     margin-left: 34.6666666667%;
   }
 
-  /* line 104, ../sass/components/_skeleton.scss */
+  /* line 98, ../sass/components/_skeleton.scss */
   .offset-by-two-thirds.column,
   .offset-by-two-thirds.columns {
     margin-left: 69.3333333333%;
   }
 
-  /* line 107, ../sass/components/_skeleton.scss */
+  /* line 101, ../sass/components/_skeleton.scss */
   .offset-by-one-half.column,
   .offset-by-one-half.columns {
     margin-left: 52%;
@@ -738,12 +739,12 @@ th {
 /* NOTE
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
-/* line 118, ../sass/components/_skeleton.scss */
+/* line 112, ../sass/components/_skeleton.scss */
 html {
   font-size: 62.5%;
 }
 
-/* line 120, ../sass/components/_skeleton.scss */
+/* line 114, ../sass/components/_skeleton.scss */
 body {
   font-size: 1rem;
   /* currently ems cause chrome bug misinterpreting rems on body element */
@@ -755,7 +756,7 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 130, ../sass/components/_skeleton.scss */
+/* line 124, ../sass/components/_skeleton.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .3rem;
@@ -763,42 +764,42 @@ h1, h2, h3, h4, h5, h6 {
   color: #CD6600;
 }
 
-/* line 135, ../sass/components/_skeleton.scss */
+/* line 129, ../sass/components/_skeleton.scss */
 h1 {
   font-size: 4.0rem;
   line-height: 1.2;
   letter-spacing: -.1rem;
 }
 
-/* line 136, ../sass/components/_skeleton.scss */
+/* line 130, ../sass/components/_skeleton.scss */
 h2 {
   font-size: 3.6rem;
   line-height: 1.25;
   letter-spacing: -.1rem;
 }
 
-/* line 137, ../sass/components/_skeleton.scss */
+/* line 131, ../sass/components/_skeleton.scss */
 h3 {
   font-size: 3.0rem;
   line-height: 1.3;
   letter-spacing: -.1rem;
 }
 
-/* line 138, ../sass/components/_skeleton.scss */
+/* line 132, ../sass/components/_skeleton.scss */
 h4 {
   font-size: 2.4rem;
   line-height: 1.35;
   letter-spacing: -.08rem;
 }
 
-/* line 139, ../sass/components/_skeleton.scss */
+/* line 133, ../sass/components/_skeleton.scss */
 h5 {
   font-size: 1.8rem;
   line-height: 1.5;
   letter-spacing: -.05rem;
 }
 
-/* line 140, ../sass/components/_skeleton.scss */
+/* line 134, ../sass/components/_skeleton.scss */
 h6 {
   font-size: 1.5rem;
   line-height: 1.6;
@@ -807,59 +808,129 @@ h6 {
 
 /* Larger than phablet */
 @media (min-width: 550px) {
-  /* line 144, ../sass/components/_skeleton.scss */
+  /* line 138, ../sass/components/_skeleton.scss */
   h1 {
     font-size: 5.0rem;
   }
 
-  /* line 145, ../sass/components/_skeleton.scss */
+  /* line 139, ../sass/components/_skeleton.scss */
   h2 {
     font-size: 4.2rem;
   }
 
-  /* line 146, ../sass/components/_skeleton.scss */
+  /* line 140, ../sass/components/_skeleton.scss */
   h3 {
     font-size: 3.6rem;
   }
 
-  /* line 147, ../sass/components/_skeleton.scss */
+  /* line 141, ../sass/components/_skeleton.scss */
   h4 {
     font-size: 3.0rem;
   }
 
-  /* line 148, ../sass/components/_skeleton.scss */
+  /* line 142, ../sass/components/_skeleton.scss */
   h5 {
     font-size: 2.4rem;
   }
 
-  /* line 149, ../sass/components/_skeleton.scss */
+  /* line 143, ../sass/components/_skeleton.scss */
   h6 {
     font-size: 1.5rem;
   }
 }
-/* line 152, ../sass/components/_skeleton.scss */
+/* line 146, ../sass/components/_skeleton.scss */
 p, td, th {
   margin-top: 0;
-  font-size: .7rem;
+  font-size: 1rem;
 }
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 158, ../sass/components/_skeleton.scss */
+/* line 152, ../sass/components/_skeleton.scss */
 a {
   font-size: 1rem;
   color: #CD6600;
   text-decoration: none;
 }
 
-/* line 163, ../sass/components/_skeleton.scss */
+/* line 157, ../sass/components/_skeleton.scss */
 a:hover {
   color: black;
 }
 
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 162, ../sass/components/_skeleton.scss */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* line 184, ../sass/components/_skeleton.scss */
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0;
+}
+
+/* line 197, ../sass/components/_skeleton.scss */
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #CD6600;
+  border-color: #CD6600;
+}
+
+/* line 205, ../sass/components/_skeleton.scss */
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #8A360F;
+  border-color: #8A360F;
+}
+
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 168, ../sass/components/_skeleton.scss */
+/* line 221, ../sass/components/_skeleton.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -880,7 +951,7 @@ select {
 }
 
 /* Removes awkward default styles on some inputs for iOS */
-/* line 185, ../sass/components/_skeleton.scss */
+/* line 238, ../sass/components/_skeleton.scss */
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -894,14 +965,14 @@ textarea {
   appearance: none;
 }
 
-/* line 196, ../sass/components/_skeleton.scss */
+/* line 249, ../sass/components/_skeleton.scss */
 textarea {
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px;
 }
 
-/* line 200, ../sass/components/_skeleton.scss */
+/* line 253, ../sass/components/_skeleton.scss */
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
@@ -915,7 +986,7 @@ select:focus {
   outline: 0;
 }
 
-/* line 211, ../sass/components/_skeleton.scss */
+/* line 264, ../sass/components/_skeleton.scss */
 label,
 legend {
   display: block;
@@ -923,19 +994,19 @@ legend {
   font-weight: 600;
 }
 
-/* line 216, ../sass/components/_skeleton.scss */
+/* line 269, ../sass/components/_skeleton.scss */
 fieldset {
   padding: 0;
   border-width: 0;
 }
 
-/* line 219, ../sass/components/_skeleton.scss */
+/* line 272, ../sass/components/_skeleton.scss */
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
 }
 
-/* line 222, ../sass/components/_skeleton.scss */
+/* line 275, ../sass/components/_skeleton.scss */
 label > .label-body {
   display: inline-block;
   margin-left: .5rem;
@@ -944,45 +1015,80 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 230, ../sass/components/_skeleton.scss */
+/* line 283, ../sass/components/_skeleton.scss */
 ul {
   list-style: circle inside;
 }
 
-/* line 232, ../sass/components/_skeleton.scss */
+/* line 285, ../sass/components/_skeleton.scss */
 ol {
   list-style: decimal inside;
 }
 
-/* line 234, ../sass/components/_skeleton.scss */
+/* line 287, ../sass/components/_skeleton.scss */
 ol, ul {
   padding-left: 0;
   margin-top: 0;
 }
 
-/* line 237, ../sass/components/_skeleton.scss */
+/* line 290, ../sass/components/_skeleton.scss */
 ul ul,
 ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
-/* line 243, ../sass/components/_skeleton.scss */
+/* line 296, ../sass/components/_skeleton.scss */
 li {
   margin-bottom: 1rem;
 }
 
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 306, ../sass/components/_skeleton.scss */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+/* line 312, ../sass/components/_skeleton.scss */
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+
+/* line 315, ../sass/components/_skeleton.scss */
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+
+/* line 319, ../sass/components/_skeleton.scss */
+th,
+td {
+  padding: 0px 10px;
+}
+
+/* line 324, ../sass/components/_skeleton.scss */
+th:first-child {
+  min-width: 50px;
+}
+
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 249, ../sass/components/_skeleton.scss */
+/* line 330, ../sass/components/_skeleton.scss */
 button,
 .button {
   margin-bottom: 1rem;
 }
 
-/* line 252, ../sass/components/_skeleton.scss */
+/* line 333, ../sass/components/_skeleton.scss */
 input,
 textarea,
 select,
@@ -990,7 +1096,7 @@ fieldset {
   margin-bottom: 1.5rem;
 }
 
-/* line 257, ../sass/components/_skeleton.scss */
+/* line 338, ../sass/components/_skeleton.scss */
 pre,
 blockquote,
 dl,
@@ -1005,31 +1111,31 @@ form {
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 271, ../sass/components/_skeleton.scss */
+/* line 352, ../sass/components/_skeleton.scss */
 .u-full-width {
   width: 100%;
   box-sizing: border-box;
 }
 
-/* line 274, ../sass/components/_skeleton.scss */
+/* line 355, ../sass/components/_skeleton.scss */
 .u-max-full-width {
   max-width: 100%;
   box-sizing: border-box;
 }
 
-/* line 277, ../sass/components/_skeleton.scss */
+/* line 358, ../sass/components/_skeleton.scss */
 .u-pull-right {
   float: right;
 }
 
-/* line 279, ../sass/components/_skeleton.scss */
+/* line 360, ../sass/components/_skeleton.scss */
 .u-pull-left {
   float: left;
 }
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 285, ../sass/components/_skeleton.scss */
+/* line 366, ../sass/components/_skeleton.scss */
 hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
@@ -1040,7 +1146,7 @@ hr {
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Self Clearing Goodness */
-/* line 296, ../sass/components/_skeleton.scss */
+/* line 377, ../sass/components/_skeleton.scss */
 .container:after,
 .row:after,
 .u-cf {
@@ -1059,12 +1165,12 @@ there.
 */
 /* Larger than mobile */
 @media (min-width: 400px) {
-  /* line 316, ../sass/components/_skeleton.scss */
+  /* line 396, ../sass/components/_skeleton.scss */
   p, td, th {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
-  /* line 320, ../sass/components/_skeleton.scss */
+  /* line 400, ../sass/components/_skeleton.scss */
   h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: .3rem;
@@ -1072,97 +1178,81 @@ there.
     color: #CD6600;
   }
 
-  /* line 327, ../sass/components/_skeleton.scss */
+  /* line 407, ../sass/components/_skeleton.scss */
   h1 {
     font-size: 3.5rem;
     line-height: 1.2;
     letter-spacing: -.1rem;
   }
 
-  /* line 328, ../sass/components/_skeleton.scss */
+  /* line 408, ../sass/components/_skeleton.scss */
   h2 {
     font-size: 3.0rem;
     line-height: 1.25;
     letter-spacing: -.1rem;
   }
 
-  /* line 329, ../sass/components/_skeleton.scss */
+  /* line 409, ../sass/components/_skeleton.scss */
   h3 {
     font-size: 2.5rem;
     line-height: 1.3;
     letter-spacing: -.1rem;
   }
 
-  /* line 330, ../sass/components/_skeleton.scss */
+  /* line 410, ../sass/components/_skeleton.scss */
   h4 {
     font-size: 2.3rem;
     line-height: 1.35;
     letter-spacing: -.08rem;
   }
 
-  /* line 331, ../sass/components/_skeleton.scss */
+  /* line 411, ../sass/components/_skeleton.scss */
   h5 {
     font-size: 1.9rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
   }
 
-  /* line 332, ../sass/components/_skeleton.scss */
+  /* line 412, ../sass/components/_skeleton.scss */
   h6 {
     font-size: 1.1rem;
     line-height: 1.6;
     letter-spacing: 0;
   }
 
-  /* line 334, ../sass/components/_skeleton.scss */
+  /* line 414, ../sass/components/_skeleton.scss */
   .suppliers a {
     font-size: 1rem;
   }
 
-  /* line 338, ../sass/components/_skeleton.scss */
+  /* line 418, ../sass/components/_skeleton.scss */
   .address {
     font-size: 1rem;
   }
 
-  /* line 342, ../sass/components/_skeleton.scss */
+  /* line 422, ../sass/components/_skeleton.scss */
   .phoneNumber {
     display: block;
     padding-top: 1.1em;
   }
 
-  /* line 347, ../sass/components/_skeleton.scss */
-  .loretta img {
-    border-radius: 15px;
-    max-width: 100%;
-    margin-top: 20px;
-    clear: none;
-  }
-}
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-  /* line 359, ../sass/components/_skeleton.scss */
-  .loretta img {
-    display: block;
-    max-height: 550px;
-  }
-
-  /* line 364, ../sass/components/_skeleton.scss */
-  p, td, th {
-    font-size: 1.2rem;
+  /* line 427, ../sass/components/_skeleton.scss */
+  .text-wrap {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
   }
 }
 /* Larger than tablet */
 @media (min-width: 750px) {
-  /* line 372, ../sass/components/_skeleton.scss */
+  /* line 437, ../sass/components/_skeleton.scss */
   p, td, th {
     font-size: 1.2rem;
   }
 }
-/* Larger than desktop */
-/* Larger than Desktop HD */
 /* Logo
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 4, ../sass/layout/_header.scss */
+/* line 7, ../sass/layout/_header.scss */
 #bisonlogo {
   max-width: 50%;
   height: 110px;
@@ -1171,36 +1261,36 @@ there.
   clear: none;
 }
 
-/* line 12, ../sass/layout/_header.scss */
+/* line 15, ../sass/layout/_header.scss */
 #bisonlogo img {
   max-height: 100%;
   padding: 10px;
 }
 
-/* line 17, ../sass/layout/_header.scss */
+/* line 20, ../sass/layout/_header.scss */
 #bisonlogo img:hover {
   background-color: black;
 }
 
 /* Column Right Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 24, ../sass/layout/_header.scss */
+/* line 27, ../sass/layout/_header.scss */
 .address {
   font-size: 1.2em;
 }
 
-/* line 28, ../sass/layout/_header.scss */
+/* line 31, ../sass/layout/_header.scss */
 .phoneNumber {
   display: block;
   padding-top: 1.2em;
 }
 
-/* line 33, ../sass/layout/_header.scss */
+/* line 36, ../sass/layout/_header.scss */
 #hoursSemi {
   display: none;
 }
 
-/* line 37, ../sass/layout/_header.scss */
+/* line 40, ../sass/layout/_header.scss */
 #hoursFull {
   padding-top: 10px;
   display: block;
@@ -1208,7 +1298,7 @@ there.
 }
 
 /*________Header Right________*/
-/* line 45, ../sass/layout/_header.scss */
+/* line 48, ../sass/layout/_header.scss */
 .headerRight {
   text-align: right;
   padding: 10px;
@@ -1218,126 +1308,115 @@ there.
   line-height: 1.3;
 }
 
-/* line 54, ../sass/layout/_header.scss */
+/* line 57, ../sass/layout/_header.scss */
 .address {
   font-size: .9em;
   color: #CD6600;
   text-decoration: none;
 }
 
-/* line 60, ../sass/layout/_header.scss */
+/* line 63, ../sass/layout/_header.scss */
 .phoneNumber {
   display: block;
   padding-top: .9em;
 }
 
-/* line 65, ../sass/layout/_header.scss */
+/* line 68, ../sass/layout/_header.scss */
 #hoursSemi {
   padding-top: 10px;
   display: block;
   font-size: .5rem;
 }
 
-/* line 71, ../sass/layout/_header.scss */
+/* line 74, ../sass/layout/_header.scss */
 #hoursFull {
   display: none;
 }
 
-/*________End Header Right________*/
-/*general*/
-/* line 7, ../sass/layout/_layout.scss */
+/* General (Mobile First)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 6, ../sass/layout/_layout.scss */
 body {
   background-color: #8A360F;
 }
 
-/* line 11, ../sass/layout/_layout.scss */
-p, td, th, .suppliers a {
-  font-size: 1rem;
+/*p, td, th, .suppliers a {
+  font-size: $font-size-small;
   line-height: 1.75;
-}
-
+}*/
 /* line 15, ../sass/layout/_layout.scss */
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
-  margin-bottom: .3rem;
-  font-weight: 300;
-  color: #CD6600;
-}
-
-/* line 22, ../sass/layout/_layout.scss */
-a {
-  color: #CD6600;
-  text-decoration: none;
-}
-
-/* line 27, ../sass/layout/_layout.scss */
-h1 {
-  font-size: 3.5rem;
-  line-height: 1.2;
-  letter-spacing: -.1rem;
-}
-
-/* line 28, ../sass/layout/_layout.scss */
-h2 {
-  font-size: 3.0rem;
-  line-height: 1.25;
-  letter-spacing: -.1rem;
-}
-
-/* line 29, ../sass/layout/_layout.scss */
-h3 {
-  font-size: 2.5rem;
-  line-height: 1.3;
-  letter-spacing: -.1rem;
-}
-
-/* line 30, ../sass/layout/_layout.scss */
-h4 {
-  font-size: 2.3rem;
-  line-height: 1.35;
-  letter-spacing: -.08rem;
-}
-
-/* line 31, ../sass/layout/_layout.scss */
-h5 {
-  font-size: 1.9rem;
-  line-height: 1.5;
-  letter-spacing: -.05rem;
-}
-
-/* line 32, ../sass/layout/_layout.scss */
-h6 {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  letter-spacing: 0;
-}
-
-/* line 34, ../sass/layout/_layout.scss */
 #google-cal {
   max-width: 80%;
   border-width: 0;
   max-width: 100%;
 }
 
-/* line 40, ../sass/layout/_layout.scss */
+/* line 21, ../sass/layout/_layout.scss */
 #webcredit {
   text-align: center;
 }
 
-/*Table*/
+/* line 25, ../sass/layout/_layout.scss */
+#loretta img {
+  display: none;
+  margin: none;
+  max-width: 100%;
+}
+
+@media (min-width: 400px) {
+  /* line 32, ../sass/layout/_layout.scss */
+  #loretta img {
+    border-radius: 15px;
+    clear: none;
+    display: block;
+    float: right;
+  }
+}
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 42, ../sass/layout/_layout.scss */
+html {
+  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
+}
+
 /* line 46, ../sass/layout/_layout.scss */
-th,
-td {
-  padding: 0px 10px;
+p, th, td {
+  color: white;
 }
 
-/* line 51, ../sass/layout/_layout.scss */
-th:first-child {
-  min-width: 50px;
+/* line 50, ../sass/layout/_layout.scss */
+nav {
+  color: white;
+  padding: 1%;
+  font-weight: 400;
 }
 
-/*Collapsing header effect*/
-/* line 56, ../sass/layout/_layout.scss */
+/* Background Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 59, ../sass/layout/_layout.scss */
+#bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+/* line 66, ../sass/layout/_layout.scss */
+#bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/*Collapsing header effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* line 81, ../sass/layout/_layout.scss */
 header {
   height: 130px;
   background: #8a360f;
@@ -1351,7 +1430,7 @@ header {
   clear: none;
 }
 
-/* line 71, ../sass/layout/_layout.scss */
+/* line 95, ../sass/layout/_layout.scss */
 #banner {
   width: 100%;
   height: 300px;
@@ -1359,7 +1438,7 @@ header {
   top: 130px;
 }
 
-/* line 78, ../sass/layout/_layout.scss */
+/* line 102, ../sass/layout/_layout.scss */
 #content {
   width: 100%;
   position: relative;
@@ -1367,153 +1446,20 @@ header {
   background-color: rgba(138, 54, 15, 0.4);
 }
 
-/* line 85, ../sass/layout/_layout.scss */
+/* line 109, ../sass/layout/_layout.scss */
 .story {
   clear: none;
   display: auto;
   padding: 2px;
 }
 
-/* line 91, ../sass/layout/_layout.scss */
+/* line 115, ../sass/layout/_layout.scss */
 .suppliers {
   margin-top: 20px;
 }
 
-/* line 95, ../sass/layout/_layout.scss */
+/* line 119, ../sass/layout/_layout.scss */
 .suppliers a {
   border-bottom: 1px white solid;
   color: #fff;
-  font-size: 1.2rem;
-}
-
-/*fonts*/
-/* line 102, ../sass/layout/_layout.scss */
-html {
-  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
-}
-
-/* line 106, ../sass/layout/_layout.scss */
-p, th, td {
-  color: white;
-}
-
-/* line 110, ../sass/layout/_layout.scss */
-nav {
-  color: white;
-  padding: 1%;
-  font-weight: 400;
-}
-
-/*background image*/
-/* line 118, ../sass/layout/_layout.scss */
-#bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
-
-/* line 125, ../sass/layout/_layout.scss */
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
-}
-
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 138, ../sass/layout/_layout.scss */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 0.7rem;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box;
-}
-
-/* line 160, ../sass/layout/_layout.scss */
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0;
-}
-
-/* line 173, ../sass/layout/_layout.scss */
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #CD6600;
-  border-color: #CD6600;
-}
-
-/* line 181, ../sass/layout/_layout.scss */
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #8A360F;
-  border-color: #8A360F;
-}
-
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/* line 197, ../sass/layout/_layout.scss */
-th,
-td {
-  padding: 12px 15px;
-  text-align: left;
-  border-bottom: 1px solid #E1E1E1;
-}
-
-/* line 203, ../sass/layout/_layout.scss */
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-
-/* line 206, ../sass/layout/_layout.scss */
-th:last-child,
-td:last-child {
-  padding-right: 0;
 }

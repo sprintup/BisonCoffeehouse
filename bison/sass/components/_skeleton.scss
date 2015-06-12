@@ -1,3 +1,5 @@
+@import '../variables';
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -14,16 +16,6 @@
 - Clearing
 - Media Queries
 */
-
-
-/* Variables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-size-small: .7rem;
-$font-size-medium: 1rem;
-$font-size-large: 1.2rem;
-$color-light: #CD6600;
-$color-dark: #8A360F;
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -307,9 +299,7 @@ li {
 /* Code
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.loretta img {
-  display: none;
-  }
+
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -434,25 +424,10 @@ there.
     padding-top: 1.1em;
   }
 
-  .loretta img{
-  border-radius: 15px;
-  margin-top: 20px;
-  clear: none;
-  }
-
   .text-wrap {
     float: right;
     margin: 10px;
     max-width: 50%;
-  }
-
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-
-  p, td, th {
-    font-size: $font-size-large;
   }
 
 }
@@ -463,9 +438,3 @@ there.
     font-size: $font-size-large;
   }
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
