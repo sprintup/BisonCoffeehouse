@@ -1,12 +1,4 @@
-/*
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
+@import '../variables';
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -24,7 +16,6 @@
 - Clearing
 - Media Queries
 */
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -45,7 +36,8 @@
 @media (min-width: 400px) {
   .container {
     width: 85%;
-  }
+    padding: 0;}
+}
 
 /* For devices larger than 550px */
 @media (min-width: 550px) {
@@ -120,7 +112,7 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: $font-size-medium; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Noto Serif", "EB Garamond", "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -153,22 +145,21 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p, td, th {
   margin-top: 0;
-  font-size: .7rem;}
+  font-size: $font-size-medium;}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  font-size: 1.2rem;
-  color: #CD6600;
+  font-size: $font-size-medium;
+  color: $color-light;
   text-decoration: none; 
   }
 a:hover {
   color: black; }
 
-
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*.button,
+  .button,
 button,
 input[type="submit"],
 input[type="reset"],
@@ -178,7 +169,7 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: $font-size-small;
   font-weight: 600;
   line-height: 38px;
   letter-spacing: .1rem;
@@ -224,7 +215,6 @@ input[type="button"].button-primary:focus {
   color: #FFF;
   background-color: #8A360F;
   border-color: #8A360F; }
-*/
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -239,7 +229,7 @@ textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #8A360F;
+  background-color: $color-dark;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
@@ -302,15 +292,18 @@ ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%; }
+  font-size: $font-size-small; }
 li {
   margin-bottom: 1rem; }
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*th,
+th,
 td {
   padding: 12px 15px;
   text-align: left;
@@ -321,8 +314,16 @@ td:first-child {
   padding-left: 0; }
 th:last-child,
 td:last-child {
-  padding-right: 0; }*/
+  padding-right: 0; }
 
+th,
+td {
+  padding: 0px 10px;
+  }
+
+th:first-child {
+  min-width: 50px;
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -393,15 +394,15 @@ there.
 /* Larger than mobile */
 @media (min-width: 400px) {
   p, td, th {
-      font-size: 1.1rem;
-    }
+    font-size: $font-size-large; 
+  }
 
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 0;
-      margin-bottom: .3rem;
-      font-weight: 300;
-      color: #CD6600;
-    }
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-weight: 300;
+    color: #CD6600;
+  }
 
   h1 { font-size: 3.5rem; line-height: 1.2;  letter-spacing: -.1rem;}
   h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
@@ -411,17 +412,18 @@ there.
   h6 { font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
 
  .suppliers a {
-    font-size: 1.1rem;
+    font-size: $font-size-medium;
   }
 
   .address {
-        font-size: 1.1em;
+    font-size: $font-size-medium;
   }
 
   .phoneNumber {
     display: block;
     padding-top: 1.1em;
   }
+<<<<<<< HEAD:css/skeleton.css
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -449,10 +451,13 @@ there.
   .address {
         font-size: 1.2em;
   }
+=======
+>>>>>>> working:bison/sass/components/_skeleton.scss
 
-  .phoneNumber {
-    display: block;
-    padding-top: 1.2em;
+  .text-wrap {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
   }
 
 }
@@ -460,12 +465,10 @@ there.
 /* Larger than tablet */
 @media (min-width: 750px) {
   p, td, th {
+<<<<<<< HEAD:css/skeleton.css
     font-size: 1.5rem;
+=======
+    font-size: $font-size-large;
+>>>>>>> working:bison/sass/components/_skeleton.scss
   }
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}

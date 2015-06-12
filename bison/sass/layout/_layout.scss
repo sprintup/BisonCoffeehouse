@@ -1,0 +1,121 @@
+@import '../variables';
+
+/* General (Mobile First)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body{
+  background-color: #8A360F;
+}
+
+/*p, td, th, .suppliers a {
+  font-size: $font-size-small;
+  line-height: 1.75;
+}*/
+
+#google-cal {
+  max-width: 80%;
+  border-width:0; 
+  max-width: 100%;
+}
+
+#webcredit {
+  text-align: center;
+}
+
+#loretta img {
+  display: none;
+  margin: none;
+  max-width: 100%;
+  }
+
+@media ($tablet) {
+  #loretta img{
+    border-radius: 15px;
+    clear: none;
+    }
+}
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html{
+  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
+  }
+
+p, th, td {
+  color: white;
+}
+
+nav {
+  color:white;
+  padding: 1%;
+  font-weight: 400;
+}
+
+/* Background Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+  
+/*Collapsing header effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+  height: 130px;
+  background: rgba(138, 54, 15, 1);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: rgba(205, 102, 0, .3);
+  clear: none;
+}
+
+#banner {
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  top: 130px;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  padding-top: 160px;
+  background-color: rgba(138, 54, 15, .4);
+}
+
+.story {
+  clear: none;
+  display: auto;
+  padding: 2px;
+}
+
+.suppliers {
+  margin-top: 20px;
+}
+
+.suppliers a {
+  border-bottom: 1px white solid;
+  color: #fff;
+}
+

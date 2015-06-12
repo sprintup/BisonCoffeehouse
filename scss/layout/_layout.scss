@@ -1,5 +1,6 @@
 /*general*/
 
+<<<<<<< HEAD:css/layout.css
 body {
     background-color: #8A360F;
 }
@@ -20,6 +21,25 @@ h6 {
     margin-bottom: .3rem;
     font-weight: 300;
     color: #CD6600;
+=======
+$font-size-small: .7rem;
+$font-size-medium: 1rem;
+$font-size-large: 1.2rem;
+
+body{
+  background-color: #8A360F;
+}
+
+p, td, th, .suppliers a {
+  font-size: $font-size-medium;
+  line-height: 1.75;}
+
+h1, h2, h3, h4, h5, h6 {
+margin-top: 0;
+margin-bottom: .3rem;
+font-weight: 300;
+color: #CD6600;
+>>>>>>> working:scss/layout/_layout.scss
 }
 a {
     color: #CD6600;
@@ -68,6 +88,7 @@ h6 {
     max-width: 100%;
     text-align: center;
 }
+<<<<<<< HEAD:css/layout.css
 #google-cal {
     max-width: 80%;
     border-width: 0;
@@ -75,6 +96,24 @@ h6 {
 }
 .webcredit {
     text-align: center;
+=======
+
+h1 { font-size: 3.5rem; line-height: 1.2;  letter-spacing: -.1rem;}
+h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
+h3 { font-size: 2.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h4 { font-size: 2.3rem; line-height: 1.35; letter-spacing: -.08rem; }
+h5 { font-size: 1.9rem; line-height: 1.5;  letter-spacing: -.05rem; }
+h6 { font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
+
+#google-cal {
+  max-width: 80%;
+  border-width:0; 
+  max-width: 100%;
+}
+
+#webcredit {
+  text-align: center;
+>>>>>>> working:scss/layout/_layout.scss
 }
 /*Table*/
 
@@ -83,9 +122,14 @@ td {
     padding: 0px 10px;
 }
 th:first-child {
+<<<<<<< HEAD:css/layout.css
     min-width: 50px;
+=======
+  min-width: 50px;
+>>>>>>> working:scss/layout/_layout.scss
 }
 /*Collapsing header effect*/
+<<<<<<< HEAD:css/layout.css
 
 header {
     height: 130px;
@@ -98,14 +142,37 @@ header {
     border-bottom-width: 15px;
     border-bottom-color: rgba(205, 102, 0, .3);
     clear: none;
+=======
+header {
+  height: 130px;
+  background: rgba(138, 54, 15, 1);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+
+
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
+  border-bottom-color: rgba(205, 102, 0, .3);
+  clear: none;
+>>>>>>> working:scss/layout/_layout.scss
 }
 #banner {
+<<<<<<< HEAD:css/layout.css
     width: 100%;
     height: 300px;
     position: fixed;
     top: 130px;
+=======
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  top: 130px;
+>>>>>>> working:scss/layout/_layout.scss
 }
 #content {
+<<<<<<< HEAD:css/layout.css
     width: 100%;
     position: relative;
     padding-top: 160px;
@@ -152,16 +219,39 @@ header {
     clear: none;
     position: relative;
     margin: 5%;
+=======
+  width: 100%;
+  position: relative;
+  padding-top: 160px;
+  background-color: rgba(138, 54, 15, .4);
+}
+
+.story {
+  clear: none;
+  display: auto;
+  padding: 2px;
+>>>>>>> working:scss/layout/_layout.scss
 }
 .suppliers {
+<<<<<<< HEAD:css/layout.css
     margin-top: 20px;
+=======
+  margin-top: 20px;
+>>>>>>> working:scss/layout/_layout.scss
 }
 .suppliers a {
+<<<<<<< HEAD:css/layout.css
     border-bottom: 1px white solid;
     color: #fff;
     font-size: 1.15em;
+=======
+  border-bottom: 1px white solid;
+  color: #fff;
+  font-size: $font-size-large;
+>>>>>>> working:scss/layout/_layout.scss
 }
 /*fonts*/
+<<<<<<< HEAD:css/layout.css
 
 html {
     font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
@@ -170,11 +260,25 @@ p,
 th,
 td {
     color: white;
+=======
+html{
+  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
+  }
+
+p, th, td {
+  color: white;
+>>>>>>> working:scss/layout/_layout.scss
 }
 nav {
+<<<<<<< HEAD:css/layout.css
     color: white;
     padding: 1%;
     font-weight: 400;
+=======
+  color:white;
+  padding: 1%;
+  font-weight: 400;
+>>>>>>> working:scss/layout/_layout.scss
 }
 /*background image*/
 
@@ -195,6 +299,7 @@ nav {
     min-width: 50%;
     min-height: 50%;
 }
+<<<<<<< HEAD:css/layout.css
 /*Logo Work*/
 
 #bisonlogo {
@@ -211,6 +316,9 @@ nav {
 #bisonlogo img:hover {
     background-color: black;
 }
+=======
+
+>>>>>>> working:scss/layout/_layout.scss
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -219,6 +327,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
+<<<<<<< HEAD:css/layout.css
     display: inline-block;
     height: 38px;
     padding: 0 30px;
@@ -237,6 +346,25 @@ input[type="button"] {
     cursor: pointer;
     box-sizing: border-box;
 }
+=======
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: $font-size-small;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+>>>>>>> working:scss/layout/_layout.scss
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -289,5 +417,12 @@ td:first-child {
 }
 th:last-child,
 td:last-child {
+<<<<<<< HEAD:css/layout.css
     padding-right: 0;
 }
+=======
+  padding-right: 0; }
+
+
+
+>>>>>>> working:scss/layout/_layout.scss
