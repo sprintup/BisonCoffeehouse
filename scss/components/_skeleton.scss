@@ -1,3 +1,5 @@
+@import '../variables';
+
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 - Grid
@@ -14,14 +16,6 @@
 - Clearing
 - Media Queries
 */
-
-
-/* Variables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-$font-size-small: .7rem;
-$font-size-medium: 1rem;
-$font-size-large: 1.2rem;
-
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -42,7 +36,7 @@ $font-size-large: 1.2rem;
 @media (min-width: 400px) {
   .container {
     width: 85%;
-  }
+    padding: 0;}
 }
 
 /* For devices larger than 550px */
@@ -151,17 +145,76 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 p, td, th {
   margin-top: 0;
-  font-size: .7rem;}
+  font-size: $font-size-medium;}
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   font-size: $font-size-medium;
-  color: #CD6600;
+  color: $color-light;
   text-decoration: none; 
   }
 a:hover {
   color: black; }
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+  .button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: $font-size-small;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #CD6600;
+  border-color: #CD6600; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #8A360F;
+  border-color: #8A360F; }
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -176,7 +229,7 @@ textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #8A360F;
+  background-color: $color-dark;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
@@ -239,10 +292,38 @@ ul ol,
 ol ol,
 ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
-  font-size: $font-size-medium; }
+  font-size: $font-size-small; }
 li {
   margin-bottom: 1rem; }
 
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+th,
+td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #E1E1E1;
+  }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+
+th,
+td {
+  padding: 0px 10px;
+  }
+
+th:first-child {
+  min-width: 50px;
+}
 
 /* Spacing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -310,11 +391,10 @@ on small devices, paste the mobile query code up in the buttons section and styl
 there.
 */
 
-
 /* Larger than mobile */
 @media (min-width: 400px) {
   p, td, th {
-    font-size: $font-size-medium;
+    font-size: $font-size-large; 
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -343,14 +423,6 @@ there.
     display: block;
     padding-top: 1.1em;
   }
-
-  .loretta img{
-  border-radius: 15px;
-  max-width: 100%;
-  margin-top: 20px;
-  clear: none;
-  }
-
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -362,7 +434,29 @@ there.
   }
 
   p, td, th {
-    font-size: $font-size-large;
+    font-size: 1.25rem;
+  }
+
+ #hoursSemi {
+    display: none;
+  }
+
+  #hoursFull {
+    padding-top: 10px;
+    display: block;
+    font-size: 1rem;
+  }
+
+  .address {
+        font-size: 1.2em;
+  }
+=======
+>>>>>>> working:bison/sass/components/_skeleton.scss
+
+  .text-wrap {
+    float: right;
+    margin: 10px;
+    max-width: 50%;
   }
 
 }
@@ -370,12 +464,10 @@ there.
 /* Larger than tablet */
 @media (min-width: 750px) {
   p, td, th {
+<<<<<<< HEAD:css/skeleton.css
+    font-size: 1.5rem;
+=======
     font-size: $font-size-large;
+>>>>>>> working:bison/sass/components/_skeleton.scss
   }
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}

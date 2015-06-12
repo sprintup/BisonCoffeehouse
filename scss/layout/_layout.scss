@@ -1,109 +1,16 @@
-/*general*/
+@import '../variables';
 
-<<<<<<< HEAD:css/layout.css
-body {
-    background-color: #8A360F;
-}
-p,
-td,
-th,
-.suppliers a {
-    font-size: .7em;
-    line-height: 1.75;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: 0;
-    margin-bottom: .3rem;
-    font-weight: 300;
-    color: #CD6600;
-=======
-$font-size-small: .7rem;
-$font-size-medium: 1rem;
-$font-size-large: 1.2rem;
+/* General (Mobile First)
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body{
   background-color: #8A360F;
 }
 
-p, td, th, .suppliers a {
-  font-size: $font-size-medium;
-  line-height: 1.75;}
-
-h1, h2, h3, h4, h5, h6 {
-margin-top: 0;
-margin-bottom: .3rem;
-font-weight: 300;
-color: #CD6600;
->>>>>>> working:scss/layout/_layout.scss
-}
-a {
-    color: #CD6600;
-    text-decoration: none;
-}
-h1 {
-    font-size: 1.7rem;
-    line-height: 1.2;
-    letter-spacing: -.1rem;
-}
-h2 {
-    font-size: 1.6rem;
-    line-height: 1.25;
-    letter-spacing: -.1rem;
-}
-h3 {
-    font-size: 1.5rem;
-    line-height: 1.3;
-    letter-spacing: -.1rem;
-}
-h4 {
-    font-size: 1.1rem;
-    line-height: 1.35;
-    letter-spacing: -.08rem;
-}
-h5 {
-    font-size: 1rem;
-    line-height: 1.5;
-    letter-spacing: -.05rem;
-}
-h6 {
-    font-size: .9rem;
-    line-height: 1.6;
-    letter-spacing: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    text-align: center;
-    background-color: rgba(255, 255, 255, .1);
-}
-.max-width-center {
-    max-width: 100%;
-    text-align: center;
-}
-<<<<<<< HEAD:css/layout.css
-#google-cal {
-    max-width: 80%;
-    border-width: 0;
-    max-width: 100%;
-}
-.webcredit {
-    text-align: center;
-=======
-
-h1 { font-size: 3.5rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 3.0rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 2.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h4 { font-size: 2.3rem; line-height: 1.35; letter-spacing: -.08rem; }
-h5 { font-size: 1.9rem; line-height: 1.5;  letter-spacing: -.05rem; }
-h6 { font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
+/*p, td, th, .suppliers a {
+  font-size: $font-size-small;
+  line-height: 1.75;
+}*/
 
 #google-cal {
   max-width: 80%;
@@ -113,36 +20,62 @@ h6 { font-size: 1.1rem; line-height: 1.6;  letter-spacing: 0; }
 
 #webcredit {
   text-align: center;
->>>>>>> working:scss/layout/_layout.scss
 }
-/*Table*/
 
-th,
-td {
-    padding: 0px 10px;
-}
-th:first-child {
-<<<<<<< HEAD:css/layout.css
-    min-width: 50px;
-=======
-  min-width: 50px;
->>>>>>> working:scss/layout/_layout.scss
-}
-/*Collapsing header effect*/
-<<<<<<< HEAD:css/layout.css
+#loretta img {
+  display: none;
+  margin: none;
+  max-width: 100%;
+  }
 
-header {
-    height: 130px;
-    background: rgba(138, 54, 15, 1);
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 15px;
-    border-bottom-color: rgba(205, 102, 0, .3);
+@media ($tablet) {
+  #loretta img{
+    border-radius: 15px;
     clear: none;
-=======
+    }
+}
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+html{
+  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
+  }
+
+p, th, td {
+  color: white;
+}
+
+nav {
+  color:white;
+  padding: 1%;
+  font-weight: 400;
+}
+
+/* Background Image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+  
+/*Collapsing header effect
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 header {
   height: 130px;
   background: rgba(138, 54, 15, 1);
@@ -150,76 +83,21 @@ header {
   width: 100%;
   z-index: 10;
 
-
   color: white;
   border-bottom-style: solid;
   border-bottom-width: 15px;
   border-bottom-color: rgba(205, 102, 0, .3);
   clear: none;
->>>>>>> working:scss/layout/_layout.scss
 }
+
 #banner {
-<<<<<<< HEAD:css/layout.css
-    width: 100%;
-    height: 300px;
-    position: fixed;
-    top: 130px;
-=======
   width: 100%;
   height: 300px;
   position: fixed;
   top: 130px;
->>>>>>> working:scss/layout/_layout.scss
 }
+
 #content {
-<<<<<<< HEAD:css/layout.css
-    width: 100%;
-    position: relative;
-    padding-top: 160px;
-    background-color: rgba(138, 54, 15, .4);
-}
-/*________Header Right________*/
-
-.headerRight {
-    text-align: right;
-    padding: 10px;
-    max-width: 50%;
-    margin: 0;
-    clear: none;
-    line-height: 1.3;
-}
-.address {
-    font-size: .9em;
-    color: #CD6600;
-    text-decoration: none;
-}
-.phoneNumber {
-    display: block;
-    padding-top: .9em;
-}
-#hoursSemi {
-    padding-top: 10px;
-    display: block;
-    font-size: .75em;
-}
-#hoursFull {
-    display: none;
-}
-/*________End Header Right________*/
-
-.story {
-    clear: none;
-    display: auto;
-    padding: 2px;
-}
-.loretta img {
-    border-radius: 15px;
-    max-width: 100%;
-    display: none;
-    clear: none;
-    position: relative;
-    margin: 5%;
-=======
   width: 100%;
   position: relative;
   padding-top: 160px;
@@ -230,199 +108,14 @@ header {
   clear: none;
   display: auto;
   padding: 2px;
->>>>>>> working:scss/layout/_layout.scss
 }
+
 .suppliers {
-<<<<<<< HEAD:css/layout.css
-    margin-top: 20px;
-=======
   margin-top: 20px;
->>>>>>> working:scss/layout/_layout.scss
 }
+
 .suppliers a {
-<<<<<<< HEAD:css/layout.css
-    border-bottom: 1px white solid;
-    color: #fff;
-    font-size: 1.15em;
-=======
   border-bottom: 1px white solid;
   color: #fff;
-  font-size: $font-size-large;
->>>>>>> working:scss/layout/_layout.scss
 }
-/*fonts*/
-<<<<<<< HEAD:css/layout.css
 
-html {
-    font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
-}
-p,
-th,
-td {
-    color: white;
-=======
-html{
-  font-family: "Fjalla One", "Noto Serif", "Josefin Sans", "EB Garamond";
-  }
-
-p, th, td {
-  color: white;
->>>>>>> working:scss/layout/_layout.scss
-}
-nav {
-<<<<<<< HEAD:css/layout.css
-    color: white;
-    padding: 1%;
-    font-weight: 400;
-=======
-  color:white;
-  padding: 1%;
-  font-weight: 400;
->>>>>>> working:scss/layout/_layout.scss
-}
-/*background image*/
-
-#bg {
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-}
-#bg img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-}
-<<<<<<< HEAD:css/layout.css
-/*Logo Work*/
-
-#bisonlogo {
-    max-width: 50%;
-    height: 110px;
-    padding: 5px;
-    margin: 0;
-    clear: none;
-}
-#bisonlogo img {
-    max-height: 100%;
-    padding: 10px;
-}
-#bisonlogo img:hover {
-    background-color: black;
-}
-=======
-
->>>>>>> working:scss/layout/_layout.scss
-/* Buttons
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-<<<<<<< HEAD:css/layout.css
-    display: inline-block;
-    height: 38px;
-    padding: 0 30px;
-    color: #555;
-    text-align: center;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: .1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    white-space: nowrap;
-    background-color: transparent;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-=======
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: $font-size-small;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box; }
->>>>>>> working:scss/layout/_layout.scss
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-    color: #333;
-    border-color: #888;
-    outline: 0;
-}
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-    color: #FFF;
-    background-color: #CD6600;
-    border-color: #CD6600;
-}
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-    color: #FFF;
-    background-color: #8A360F;
-    border-color: #8A360F;
-}
-/* Tables
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-th,
-td {
-    padding: 12px 10px;
-    text-align: left;
-    border-bottom: 1px solid #E1E1E1;
-}
-th:first-child,
-td:first-child {
-    padding-left: 0;
-}
-th:last-child,
-td:last-child {
-<<<<<<< HEAD:css/layout.css
-    padding-right: 0;
-}
-=======
-  padding-right: 0; }
-
-
-
->>>>>>> working:scss/layout/_layout.scss
